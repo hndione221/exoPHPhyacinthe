@@ -1,17 +1,13 @@
 <?php
-    define("cote",2);
-    echo cote;
-    $c1 = 2;
-    $c2 = 2;
-    $c3 = 2;
-    $c4 = 2;
-    #calcul du perimetre
-    echo (c1 + c2 + c3 + c4);
-    # demi preimetre
-    echo (c1 + c2);
-    # surface
-    echo (c1 * c2);
-    
+ $c= 10;
+ $perimetre = $c * 4;
+ $demiPerimetre = $perimetre / 2;
+ $surface= $c * $c;
+ $diagonale= $c*sqrt(2);
+ echo "le perimetre du carré est $perimetre"; echo "<br/>";
+ echo "le demi perimetre est $demiPerimetre";echo "<br/>";
+ echo "le surface est $surface";echo "<br/>";
+ echo "la diagonale est $diagonale";echo "<br/>";
 
 
 
